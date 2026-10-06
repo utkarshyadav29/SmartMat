@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("127be68f-a5cb-4714-a2f8-ed4f63ce8990")
+API_KEY = os.getenv("API_KEY", "127be68f-a5cb-4714-a2f8-ed4f63ce8990")
 API_BASE_URL = os.getenv("API_BASE_URL", "https://aisuite.cirrascale.com/apis/v2")
 MODEL_NAME = "Llama-3.3-70B"
 
